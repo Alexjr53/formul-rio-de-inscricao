@@ -1,0 +1,131 @@
+body{
+    background: var(--primary-color) url(../images/bg-intro-desktop.png) no-repeat;
+    background-size:cover;
+}
+
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 3rem;
+}
+
+.info-container{
+    max-width: 50rem;
+    margin-right: 6.7rem;
+}
+
+.info-container .title{
+    font-size: 4.9rem;
+    font-weight: 700;
+    line-height: 5.5rem;
+    color: var(--primary-text-color);
+    margin-bottom: 2.8rem;
+}
+
+.info-container .description{
+    font-size: 1.6rem;
+    color: var(--primary-text-color);
+}
+
+.signup-container{
+    width: 54rem;
+}
+
+.signup-container .try-free-container{
+    max-width: 54rem;
+    height: 6rem;
+    border-radius: 1rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--try-free-container-color);
+    box-shadow: 0 1rem 0 var(--box-shadow-color);
+}
+
+.signup-container .try-free-container .try-free-info{
+    font-size: 1.5rem;
+    color: var(--secundary-text-color);
+}
+
+.signup-container .try-free-container .try-free-info span{
+    color: var(--primary-text-color);
+    font-weight: 600;
+}
+
+.signup-container .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 54rem;
+    max-height: 55rem;
+    padding-top: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 0 var(--box-shadow-color);
+}
+
+.signup-container .form .inputs{
+    display: block;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+    width: 46rem;
+    height: 5.5rem;
+    margin-top: 2rem;
+    padding-left: 3rem;
+    font-weight: 700;
+    color: var(--input-text-color);
+}
+
+.signup-container .form .btn-signup{
+    display: block;
+    border: none;
+    width: 46rem;
+    height: 5.5rem;
+    margin-top: 2rem;
+    background-color: var(--btn-color);
+    border-radius: 0.5rem;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--primary-text-color);
+    box-shadow: inset 0 -0.5rem 0 var(--box-shadow-color);
+    cursor: pointer;
+}
+
+.signup-container .form .btn-signup:hover{
+    opacity: 0.6;
+    transition: 0.2s ease-in-out;
+}
+
+.signup-container .form .terms-text{
+    font-size: 1.1rem;
+    margin-top: 1.8rem;
+    padding-bottom: 4.2rem;
+    color: --secundary-text-color;
+}
+
+.signup-container .form .terms-text a{
+    color: var(--primary-color);
+    font-weight: 800;
+}
+
+.signup-container .form .error-alert{
+    background: url(../images/icon-error.svg) no-repeat 41rem;
+    outline: auto;
+    outline-color: var(--primary-color);
+}
+
+.signup-container .form .error-message{
+    display: none;
+    text-align: right;
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+.signup-container .form .placeholder-none::placeholder{
+    opacity: 0;
+}

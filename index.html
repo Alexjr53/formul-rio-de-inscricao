@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/variables.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+<body>
+    <main>
+        <div class="info-container">
+            <h1 class="title">Learn to code by watching others</h1>
+            <p class="description">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable. </p>
+        </div>
+
+        <div class="signup-container">
+            <div class="try-free-container">
+                <h2 class="try-free-info"><span>Try it free 7 days</span> then $20/mo. thereafter</h2>
+            </div>
+            <div class="form">
+                <form action="POST" id="form">
+                    <input type="text" placeholder="First Name" name="name" class="
+                    inputs">
+                    <span class="error-message"></span>
+                    <input type="text" placeholder="Last Name" name="name" class="inputs">
+                    <span class="error-message"></span>
+                    <input type="text" placeholder="Email Address" name="e-mail" class="inputs">
+                    <span class="error-message"></span>
+                    <input type="password" placeholder="Password" name="password" class="inputs">
+                    <span class="error-message"></span>
+                    <button class="btn-signup" id="btn">Claim your free trial</button>
+                </form>
+                <p class="terms-text">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+            </div>
+        </div>
+    </main>
+
+    <script type="module" src="src/scripts/index.js"></script>
+</body>
+</html>

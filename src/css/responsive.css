@@ -1,0 +1,76 @@
+@media(max-width: 1005px){
+    .info-container{
+        margin-right: 0;
+    }
+}
+
+@media(max-width: 955px){
+    body{
+        background: var(--primary-color) url(../images/bg-intro-mobile.png) no-repeat;
+        background-size:contain;
+    }
+    
+    main{
+        flex-direction: column;
+    }
+
+    .info-container{
+        margin: 8rem 0 9rem;
+        text-align: center;
+    }
+
+    .signup-container{
+        margin-bottom: 7rem;
+    }
+}
+
+@media(max-width: 627px){
+    .info-container{
+        max-width: 36rem;
+    }
+
+    .info-container .title{
+        font-size: 2.7rem;
+        line-height: 3.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .signup-container{
+        width: 33rem;
+    }
+
+    .signup-container .try-free-container{
+        width: 33rem;
+        height: 8.6rem;
+        padding: 0 6rem;
+        text-align: center;
+    }
+
+    .signup-container .form{
+        width: 33rem;
+        max-height: 55rem; 
+        padding-top: 0.6rem;
+    }
+
+    .signup-container .form .inputs{
+        width: 28rem;
+        height: 5.5rem;
+        margin-top: 1.9rem;
+    }
+
+    .signup-container .form .btn-signup{
+        width: 28rem;
+        margin-top: 1rem;
+        font-size: 1.6rem;
+    }
+
+    .signup-container .form .terms-text{
+        margin-top: 1rem;
+        padding: 0 4rem 3rem;
+        text-align: center;
+    }
+    
+    .signup-container .form .error-alert{
+        background: url(../images/icon-error.svg) no-repeat 23.5rem;
+    }
+}

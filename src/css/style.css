@@ -34,7 +34,7 @@ main{
 }
 
 .signup-container .try-free-container{
-    max-width: 54rem;
+    width: 54rem;
     height: 6rem;
     border-radius: 1rem;
     margin-bottom: 2.5rem;

@@ -31,10 +31,11 @@ main{
 
 .signup-container{
     width: 54rem;
+    min-width: 44rem;
 }
 
 .signup-container .try-free-container{
-    width: 54rem;
+    max-width: 100%;
     height: 6rem;
     border-radius: 1rem;
     margin-bottom: 2.5rem;
@@ -55,23 +56,27 @@ main{
     font-weight: 600;
 }
 
-.signup-container .form{
+.signup-container .form-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: white;
-    width: 54rem;
+    max-width: 100%;
     max-height: 55rem;
     padding-top: 2rem;
     border-radius: 1rem;
     box-shadow: 0 1rem 0 var(--box-shadow-color);
 }
 
-.signup-container .form .inputs{
+.signup-container .form-container .form{
+    width: 85%;
+}
+
+.signup-container .form-container .inputs{
     display: block;
     border: 0.1rem solid #ccc;
     border-radius: 0.5rem;
-    width: 46rem;
+    width: 100%;
     height: 5.5rem;
     margin-top: 2rem;
     padding-left: 3rem;
@@ -79,10 +84,10 @@ main{
     color: var(--input-text-color);
 }
 
-.signup-container .form .btn-signup{
+.signup-container .form-container .btn-signup{
     display: block;
     border: none;
-    width: 46rem;
+    width: 100%;
     height: 5.5rem;
     margin-top: 2rem;
     background-color: var(--btn-color);
@@ -95,30 +100,30 @@ main{
     cursor: pointer;
 }
 
-.signup-container .form .btn-signup:hover{
+.signup-container .form-container .btn-signup:hover{
     opacity: 0.6;
     transition: 0.2s ease-in-out;
 }
 
-.signup-container .form .terms-text{
+.signup-container .form-container .terms-text{
     font-size: 1.1rem;
     margin-top: 1.8rem;
     padding-bottom: 4.2rem;
     color: --secundary-text-color;
 }
 
-.signup-container .form .terms-text a{
+.signup-container .form-container .terms-text a{
     color: var(--primary-color);
     font-weight: 800;
 }
 
-.signup-container .form .error-alert{
-    background: url(../images/icon-error.svg) no-repeat 41rem;
+.signup-container .form-container .error-alert{
+    background: url(../images/icon-error.svg) no-repeat 95%;
     outline: auto;
     outline-color: var(--primary-color);
 }
 
-.signup-container .form .error-message{
+.signup-container .form-container .error-message{
     display: none;
     text-align: right;
     color: var(--primary-color);
@@ -126,6 +131,6 @@ main{
     font-style: italic;
 }
 
-.signup-container .form .placeholder-none::placeholder{
+.signup-container .form-container .placeholder-none::placeholder{
     opacity: 0;
 }

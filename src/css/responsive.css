@@ -1,10 +1,4 @@
-@media(max-width: 1005px){
-    .info-container{
-        margin-right: 0;
-    }
-}
-
-@media(max-width: 955px){
+@media(max-width: 905px){
     body{
         background: var(--primary-color) url(../images/bg-intro-mobile.png) no-repeat;
         background-size:contain;
@@ -24,7 +18,7 @@
     }
 }
 
-@media(max-width: 627px){
+@media(max-width: 645px){
     .info-container{
         max-width: 36rem;
     }
@@ -36,41 +30,43 @@
     }
 
     .signup-container{
-        width: 33rem;
+        width: 45rem;
+        min-width: auto;
     }
 
     .signup-container .try-free-container{
-        width: 33rem;
         height: 8.6rem;
-        padding: 0 6rem;
         text-align: center;
     }
 
-    .signup-container .form{
-        width: 33rem;
-        max-height: 55rem; 
+    .signup-container .form-container{
         padding-top: 0.6rem;
     }
 
-    .signup-container .form .inputs{
-        width: 28rem;
+    .signup-container .form-container .inputs{
         height: 5.5rem;
         margin-top: 1.9rem;
+        padding-left: 2rem;
     }
 
-    .signup-container .form .btn-signup{
-        width: 28rem;
-        margin-top: 1rem;
+    .signup-container .form-container .btn-signup{
+        margin-top: 1.5rem;
         font-size: 1.6rem;
     }
 
-    .signup-container .form .terms-text{
+    .signup-container .form-container .terms-text{
         margin-top: 1rem;
         padding: 0 4rem 3rem;
         text-align: center;
     }
-    
-    .signup-container .form .error-alert{
-        background: url(../images/icon-error.svg) no-repeat 23.5rem;
+}
+
+@media(max-width: 565px){
+    .signup-container{
+        width: 33rem;
+    }
+
+    .signup-container .try-free-container{
+        padding: 0 6rem;
     }
 }

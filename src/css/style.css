@@ -48,7 +48,7 @@ main{
 
 .signup-container .try-free-container .try-free-info{
     font-size: 1.5rem;
-    color: var(--secundary-text-color);
+    color: var(--secondary-text-color);
 }
 
 .signup-container .try-free-container .try-free-info span{
@@ -109,7 +109,7 @@ main{
     font-size: 1.1rem;
     margin-top: 1.8rem;
     padding-bottom: 4.2rem;
-    color: --secundary-text-color;
+    color: --secondary-text-color;
 }
 
 .signup-container .form-container .terms-text a{

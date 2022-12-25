@@ -1,9 +1,9 @@
 :root{
     --primary-color: hsl(0, 100%, 74%);
-    --try-free-container-color: hsl(248, 32%, 49%);
     --primary-text-color: white;
-    --secundary-text-color: hsl(246, 25%, 77%);
+    --secondary-text-color: hsl(246, 25%, 77%);
+    --try-free-container-color: hsl(248, 32%, 49%);
     --input-text-color: hsl(249, 10%, 26%);
-    --box-shadow-color: #3f3e3e28;
     --btn-color: hsl(154, 59%, 51%);
+    --box-shadow-color: #3f3e3e28;
 }

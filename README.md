@@ -49,7 +49,7 @@ Esta é uma solução para o [Desafio Intro component with sign up form do Front
 
 ### Desenvolvimento
 
-Atualmente estou usando desafios do frontend mentor apenas para praticar, aprimorando assim meus conhecimentos de HTML e CSS, para que no futuro possa aprimorar este e outros projetos também feitos a partir do frontend mentor.
+Atualmente estou usando desafios do frontend mentor apenas para praticar, aprimorando assim meus conhecimentos de HTML, CSS e JS, para que no futuro possa aprimorar este e outros projetos também feitos a partir do frontend mentor.
 
 ## Autor
 Alexsandro rosa junior

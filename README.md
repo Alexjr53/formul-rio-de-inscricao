@@ -1,4 +1,4 @@
-# Desafio do frontend mentor - Intro component with sign up form
+# Desafio do frontend mentor - formulário de inscrição
 
 Esta é uma solução para o [Desafio Intro component with sign up form do Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1).
 
@@ -14,7 +14,6 @@ Esta é uma solução para o [Desafio Intro component with sign up form do Front
   - [Tecnologias utilizadas](#tecnologias-utilizadas)
   - [Desenvolvimento](#desenvolvimento)
 - [Autor](#autor)
-- [Agradecimentos](#agradecimentos)
 
 ## Visão geral
 
@@ -36,8 +35,8 @@ Esta é uma solução para o [Desafio Intro component with sign up form do Front
 
 ### Links
 
-- URL da página: [sign up form](https://alexjr53.github.io/Sing-up-form/) 
-- solução do projeto no frontend mentor: [sign up form](https://www.frontendmentor.io/solutions/intro-component-with-signup-form-D8-8cUqsjj)
+- URL da página: [formulário de inscrição](https://alexjr53.github.io/Sing-up-form/) 
+- solução do projeto no frontend mentor: [formulário de inscrição](https://www.frontendmentor.io/solutions/intro-component-with-signup-form-D8-8cUqsjj)
 
 ## Meu processo
 
@@ -55,6 +54,3 @@ Atualmente estou usando desafios do frontend mentor apenas para praticar, aprimo
 Alexsandro rosa junior
 
 - GitHub - [Alexjr53](https://github.com/Alexjr53)
-
-## Agradecimentos
-Agradecimentos a equipe [Dev em Dobro](https://www.instagram.com/devemdobro/) que está me passando o conhecimento e conceitos necessários para poder realizar esses desafios.

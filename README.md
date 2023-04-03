@@ -1,8 +1,6 @@
-# Desafio do frontend mentor - formulário de inscrição
+# Formulário de inscrição
 
 Esta é uma solução para o [Desafio Intro component with sign up form do Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1).
-
-[![NPM](https://img.shields.io/bower/l/MI)](https://github.com/Alexjr53/Sing-up-form/blob/main/license)
 
 ## Índice
 
